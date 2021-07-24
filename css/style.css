@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  max-width: 49rem;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.header-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.header-video video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  background-color: #3039528c;
+  z-index: 1;
+}
+.header-content {
+  z-index: 2;
+}
+.header-content h2 {
+  /* font-family: 'Playfair Display', serif; */
+  font-family: "Lobster", sans-serif;
+  margin-bottom: 10px;
+  font-size: 55px;
+  text-shadow: 2px 3px 3px rgb(26, 26, 26);
+}
+.header-content p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 3px 3px rgb(26, 26, 26);
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+}
+.wave2 {
+  z-index: 3;
+}
+.carousel__lista {
+  overflow: hidden;
+}
+.carousel__contenedor {
+  margin: 50px;
+}
+.carousel__lista img {
+  width: 400px;
+  box-shadow: rgba(75, 74, 74, 0.37) 4px 3px 5px;
+  max-height: 300px;
+}
+.carousel__lista img:hover {
+  cursor: pointer;
+}
+.titulo-1 h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+  color: rgb(43, 43, 43);
+  margin-left: 50px;
+  border-bottom: black 2px solid;
+  width: 90px;
+}
+.carousel__lista p {
+  font-family: "Nunito", sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+  color: rgb(46, 46, 46);
+  text-align: center;
+}
